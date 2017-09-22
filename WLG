@@ -1,7 +1,9 @@
 print ("""
 -----------------------
  _ _ _            __           
-\\/\/ord  list  (|_;enerator  
+\\/\/ord  list  (|_;enerator
+Coded by lakas mohamed
+
                               
 -----------------------
  """)
@@ -10,7 +12,7 @@ import time
 from optparse import OptionParser
 parser = OptionParser("""
 usage: script.py -n  lenth of word list numberic value -w  string value for random  -d directory
-example : wordlist.py -n 100 -w mynameisas -d c:/Users/abdallah/Desktop/wordlist.txt
+example : wordlist.py -n 100 -w mynameisas -d c:/Users/Tk3n/Desktop/wordlist.txt
 """)
 parser.add_option("-n","--number",dest="len",type="int",help="put the value of numbers")
 parser.add_option("-w","--word",dest="word",type="string",help="put the word for random")
